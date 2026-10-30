@@ -1,15 +1,19 @@
-* @vectordotdev/vector
+# Fly.io owners. Upstream entries below are commented out: CODEOWNERS is
+# last-match-wins and they would otherwise override this line.
+* @superfly/machines-team
 
-.github/workflows/regression.yml @vectordotdev/vector @vectordotdev/single-machine-performance
-regression/config.yaml @vectordotdev/vector @vectordotdev/single-machine-performance
+# * @vectordotdev/vector
 
-docs/ @vectordotdev/vector @vectordotdev/ux-team @vectordotdev/documentation
-website/ @vectordotdev/vector @vectordotdev/ux-team
-website/content @vectordotdev/vector @vectordotdev/documentation
-website/cue/reference @vectordotdev/vector @vectordotdev/documentation
+# .github/workflows/regression.yml @vectordotdev/vector @vectordotdev/single-machine-performance
+# regression/config.yaml @vectordotdev/vector @vectordotdev/single-machine-performance
 
-website/js @vectordotdev/vector @vectordotdev/vector-website
-website/layouts @vectordotdev/vector @vectordotdev/vector-website
-website/scripts @vectordotdev/vector @vectordotdev/vector-website
-website/data @vectordotdev/vector @vectordotdev/vector-website
-website/* @vectordotdev/vector @vectordotdev/vector-website
+# docs/ @vectordotdev/vector @vectordotdev/ux-team @vectordotdev/documentation
+# website/ @vectordotdev/vector @vectordotdev/ux-team
+# website/content @vectordotdev/vector @vectordotdev/documentation
+# website/cue/reference @vectordotdev/vector @vectordotdev/documentation
+
+# website/js @vectordotdev/vector @vectordotdev/vector-website
+# website/layouts @vectordotdev/vector @vectordotdev/vector-website
+# website/scripts @vectordotdev/vector @vectordotdev/vector-website
+# website/data @vectordotdev/vector @vectordotdev/vector-website
+# website/* @vectordotdev/vector @vectordotdev/vector-website
